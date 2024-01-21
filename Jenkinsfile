@@ -5,8 +5,8 @@ pipeline {
         timeout(time: 10, unit: 'MINUTES')
      }
     environment {
-    ACR_NAME = "patoacr"
-    registyUrl = "patoacr.azurecr.io"
+    ACR_NAME = "patdadaacr"
+    registyUrl = "patdadaacr.azurecr.io"
     IMAGE_NAME = "nodejswebapp"
     IMAGE_TAG = "v1.0.0"
     registryCredential  = "patdada-acr"
